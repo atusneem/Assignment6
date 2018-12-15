@@ -74,7 +74,7 @@ int main(int argc, char* argv[])
     clock_t end = clock();
     cout << ctime(&end) << endl;
 
-    elapsedTime = double(end - start) / 1000;
+    double elapsedTime = double(end - start) / 1000;
     cout << "Runtime: " << elapsedTime << endl;
 
 
@@ -89,7 +89,7 @@ int main(int argc, char* argv[])
     end = clock();
     cout << ctime(&end) << endl;
 
-    double elapsedTime = double(end - start) / 1000;
+    elapsedTime = double(end - start) / 1000;
     cout << "Runtime: " << elapsedTime << endl;
 
 
@@ -128,78 +128,3 @@ int main(int argc, char* argv[])
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*int main()
-{
-  sortingMethods s;
-
-  const int number = 25;
-  int mymyArrayay[number];
-  int count;
-  int numOfNum;
-
-  ifstream inputFile;
-  inputFile.open("numbers.txt");
-
-  count = 0;
-  while(!inputFile.eof())
-  {
-    inputFile >> mymyArrayay[number];
-    count++;
-  }
-  numOfNum = count;
-
-
-}*/
-
-
-/*int main (int argc, char const *argv[])
-{
-    vector<double> mymyArrayay;
-    string line;
-    ifstream inFile("numbers.txt");
-    if(inFile.is_open())
-    {
-        while (!inFile.eof())
-        {
-            getline(inFile, line);
-            int numLine = stoi(line);
-
-
-        inFile.close();
-    }
-    else
-    {
-        cout << "Error opening file" << endl;
-        exit(1);
-    }
-
-    for (int i=0; i<mymyArrayay.size(); ++i)
-    {
-        cout << mymyArrayay[i] << "\n";
-    }
-
-    cout << endl;
-
-    return 0;
-}*/
