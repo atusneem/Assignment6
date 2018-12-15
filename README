@@ -1,0 +1,23 @@
+# Assignment6
+
+Ayra Tusneem
+2287899
+tusneem@chapman.edu
+CPSC 350-01
+Asssignment 06
+
+
+List of source files submitted:
+  - sortingMethods.cpp
+  - sortingMethods.h
+  - main.cpp
+  - sortingAlgorithms.ltx
+  
+Runtime/Compile Errors: 
+  The timestamp is not very accurate which may effect what the runtime was. 
+  
+References:
+  - http://www.cplusplus.com/reference/ctime/CLOCKS_PER_SEC/
+  - http://www.cplusplus.com/doc/tutorial/dynamic/
+  - https://www.youtube.com/watch?v=nLYnDQDBrHE
+  - https://www.geeksforgeeks.org/converting-strings-numbers-cc/
